@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# Weather-Now
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+Weather-Now is a web application that displays current weather conditions and hourly temperature of a selected city using the Open-Meteo API. Built with React and Recharts, it provides interactive and responsive visualizations.
 
-## Available Scripts
+## Features
+- Displays hourly temperature using a line chart
+- Shows weather data for any city by entering coordinates
+- Responsive and interactive UI
+- No API key required
 
-In the project directory, you can run:
+## Installation / Setup Instructions
+### 1.Clone the repository:
+   ```bash
+   git clone https://github.com/SwathiTelagani/Weather-Now.git
+### 2.Navigate to the project folder
+   cd Weather-Now
+### 3.Install dependencies
+   npm install
+### 4.Start the app
+   npm start
+### 5.Open the app in your browser
 
-### `npm start`
+   http://localhost:3000
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+Usage
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Open the app and enter the city coordinates.
 
-### `npm run build`
+The app fetches and displays hourly temperature data in a line chart.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Interact with the chart to view detailed temperature values.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Deployed Application
 
-### `npm run eject`
+Live demo: https://glptst-3000.csb.app/
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Technologies Used
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+React
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Axios
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Recharts
 
-## Learn More
+Open-Meteo API
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+Notes
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This app fetches weather data based on latitude and longitude.
 
-### Analyzing the Bundle Size
+Fully client-side; no backend required.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Works on modern web browsers.
