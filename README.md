@@ -25,7 +25,7 @@ Weather-Now is a web application that displays current weather conditions and ho
 
 
 
-Usage
+##Usage
 
 Open the app and enter the city coordinates.
 
@@ -34,11 +34,11 @@ The app fetches and displays hourly temperature data in a line chart.
 Interact with the chart to view detailed temperature values.
 
 
-Deployed Application
+##Deployed Application
 
 Live demo: https://glptst-3000.csb.app/
 
-Technologies Used
+##Technologies Used
 
 React
 
@@ -50,7 +50,7 @@ Open-Meteo API
 
 
 
-Notes
+##Notes
 
 This app fetches weather data based on latitude and longitude.
 
